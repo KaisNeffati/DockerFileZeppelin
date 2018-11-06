@@ -2,7 +2,7 @@ FROM centos:7
 
 RUN yum -y install tar wget
 
-RUN wget http://www-eu.apache.org/dist/zeppelin/zeppelin-0.7.0/zeppelin-0.7.0-bin-netinst.tgz 
+RUN wget http://archive.apache.org/dist/zeppelin/zeppelin-0.7.0/zeppelin-0.7.0-bin-netinst.tgz
 
 RUN tar xvf zeppelin-0.7.0-bin-netinst.tgz
 
